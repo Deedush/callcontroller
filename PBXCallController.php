@@ -28,7 +28,7 @@ class call_controller {
           'Callerid: '.$this->ext.'',
           'Channel: SIP/'.$this->ext.'',
           'Exten: '.$this->num.'',
-          'Context: CallingRule_pstnout',
+          'Context: default', //put your calling rule here
           'Priority: 1',
           'Timeout: 30000',
           'Async: yes',
